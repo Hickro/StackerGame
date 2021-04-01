@@ -1,2 +1,6 @@
 # StackerGame
 Recreation of the popular arcade "stacker" game using Arduino Uno boards
+
+The application created is a version of the classic arcade game “Stacker”. Stacker is a challenging game designed to test the reflexes and skills of players. To win the game, a player must have a stack of four LEDs on top of one another. To begin the game, the player must turn the potentiometer all the way to max voltage, and then all the way back to the lowest voltage. The application has four rows of three LED lights, and alternates in a left-to-right manner, one row at a time. As a player clicks on the button, the LED that was currently on at the time will remain on, and the next row of lights above the previous will begin flashing in an orderly left-to-right fashion. The player aims to click on the LED that is above the previous ‘ON’ LED. If the player does not have the right timing to select the correctly stacked LED, the game starts over, and a message is sent to the LCD screen indicating the game is over. As a player progresses to higher rows, the speed at which the LEDs flash increases making choosing the correct LED significantly more difficult. This game is a fun yet challenging twist on an arcade classic.
+
+This project was completed using Tinkercad.
